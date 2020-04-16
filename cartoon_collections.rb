@@ -2,6 +2,7 @@ def roll_call_dwarves(names)
   i = 0
   if i <= names.length
     yield(names[i])
+    return names
   end
   puts "#{names}"
 end
