@@ -1,7 +1,8 @@
 def roll_call_dwarves(names)
   names.each do|n|
-    puts "#{n[0]}"
+    puts "#{n}"
   end
+  return names[0]
 end
 
 
