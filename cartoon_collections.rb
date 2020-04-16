@@ -6,7 +6,7 @@ end
 
 
 def summon_captain_planet(array)
-  if 
+  if
   array.each_with_index {|n, index| return (n[index]).upcase(0)}
 end
 
