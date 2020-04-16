@@ -6,8 +6,8 @@ end
 
 
 def summon_captain_planet(array)
-  if
-  array.each_with_index {|n, index| return (n[index]).upcase(0)}
+  array.each_with_index do |n, index|
+    return "#{n[index(0)].upcase}"
 end
 
 def long_planeteer_calls# code an argument here
