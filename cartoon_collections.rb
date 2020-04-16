@@ -1,10 +1,8 @@
 def roll_call_dwarves(names)
   i = 0
-  if i <= names.length
-    yield(names[i])
-    return names
+  names.each do|n|
+    puts "Hello #{n}"
   end
-  puts "#{names}"
 end
 
 
