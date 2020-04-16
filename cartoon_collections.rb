@@ -1,7 +1,7 @@
 def roll_call_dwarves(names)
   i = 0
   if i <= names.length
-    puts "#{names}"
+    puts ("#{names}").each
     i += 1
   end
 end
