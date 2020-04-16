@@ -6,7 +6,7 @@ end
 
 
 def summon_captain_planet(array)# code an argument here
-  array.each{|n| return "#{n}"}.upcase(0)# Your code here
+  array.each{|n| return n}.upcase(0)# Your code here
 end
 
 def long_planeteer_calls# code an argument here
