@@ -1,6 +1,6 @@
 def roll_call_dwarves(names)
   i = 0
-  until i == 10
+  until i == names.length
     i += 1
   end
 end
