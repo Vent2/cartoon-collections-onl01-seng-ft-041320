@@ -4,6 +4,7 @@ def roll_call_dwarves(names)
     yield(names[i])
     i += 1
   end
+  puts names
 end
 
 
