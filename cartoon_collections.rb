@@ -1,11 +1,10 @@
 def roll_call_dwarves(names)
   i = 0
-  new_names = []
-  until i == names.length
-    new_names << yield(names[i])
+  while i < names.length
+    return names[i] if
+    yield(names[i])
     i += 1
   end
-  new_names
 end
 
 
