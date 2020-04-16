@@ -1,8 +1,7 @@
 def roll_call_dwarves(names)
   i = 0
-  while i < names.length
-    return names[i] if
-    yield(names[i])
+  if i <= names.length
+    puts "#{name}"
     i += 1
   end
 end
