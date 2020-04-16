@@ -1,7 +1,7 @@
-def roll_call_dwarves(array)# code an argument here
-  array.each_with_index do |name|
-    puts ("#{name}").split
-  end
+def roll_call_dwarves(names)
+  names.each_with_index()
+
+
 end
 
 def summon_captain_planet# code an argument here
