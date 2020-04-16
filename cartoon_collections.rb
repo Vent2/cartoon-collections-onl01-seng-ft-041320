@@ -4,7 +4,7 @@ def roll_call_dwarves(names)
     i += 1
   end
 end
-    
+
 end
 
 
