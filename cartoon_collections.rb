@@ -1,9 +1,10 @@
 def roll_call_dwarves(names)
   i = 0
-  while i < names.length
+  until i == 10
     i += 1
-    puts "#{names}"
   end
+end
+    
 end
 
 
