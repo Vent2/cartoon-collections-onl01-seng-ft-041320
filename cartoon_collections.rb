@@ -7,7 +7,7 @@ end
 
 def summon_captain_planet(array)
   array.each_with_index do |n, index|
-    return n
+    return n.join
   end
 end
 
