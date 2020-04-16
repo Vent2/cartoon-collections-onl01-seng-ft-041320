@@ -3,6 +3,7 @@ def roll_call_dwarves(names)
   while i < names.length
     yield(names[i])
     i += 1
+  end
 end
 
 
