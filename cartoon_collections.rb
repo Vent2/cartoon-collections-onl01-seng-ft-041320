@@ -5,8 +5,8 @@ def roll_call_dwarves(names)
 end
 
 
-def summon_captain_planet(array)# code an argument here
-  array.each{|n| return n}.upcase(1)# Your code here
+def summon_captain_planet(array)
+  array.each{|n, index| return n[index]}.upcase(0)
 end
 
 def long_planeteer_calls# code an argument here
