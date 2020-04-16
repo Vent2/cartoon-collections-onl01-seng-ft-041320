@@ -8,6 +8,7 @@ end
 def summon_captain_planet(array)
   array.each {|n| return [n]}.capitalize
   new_array = array.length
+  return new_array
 end
 
 def long_planeteer_calls(array)
