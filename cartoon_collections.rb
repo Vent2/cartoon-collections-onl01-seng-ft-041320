@@ -1,5 +1,4 @@
 def roll_call_dwarves(names)
-  i = 0
   names.each do|n|
     puts "Hello #{n}"
   end
