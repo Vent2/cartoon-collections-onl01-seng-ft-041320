@@ -6,8 +6,8 @@ end
 
 
 def summon_captain_planet(array)
-  array.each_with_index do |n, index|
-    return n
+  array.each_with_index(0).upcase do |n|
+    return "#{n}"
   end
 end
 
